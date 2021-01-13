@@ -15,6 +15,13 @@ mvn clean install
 
 ## Usage
 
+Docker:
+```
+docker pull egamorim/leilao-veiculos:latest
+docker run -p 127.0.0.1:8080:8080/tcp egamorim/leilao-veiculos:latest
+```
+
+Java:
 ```bash
 java -jar target/leilao-veiculos-facade-0.0.1-SNAPSHOT.jar
 ```
